@@ -14,6 +14,8 @@ gem 'jquery-rails'
 
 group :test do
   gem 'rspec-rails'
+  gem 'coveralls'
 end
 
 gem 'pry-rails', group: [ :test, :development ]
+
